@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <div id="art" class="arrow">
+        <a href="#" onclick=gotop()><img id='arrow' src="/arrow.png" alt=""></a>
+        </div>
+        <div class="container" id="top">
+        <nav class="nav">
+            <div class="nav_d">
+                <img src="/logo.png" alt="logo">
+                <div class="nav_contents">
+                    <a href="/index.html">Home</a>
+                    <a href="#more" onclick=more_fun()>More</a>
+                    <a href="#about" onclick=aboutfunction()>About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <h1>Check</h1>
+            <h2>Crypto <span id="currency">Currency</span></h2>
+            <p>Check crypto currency rates in live time.</p>
+            <button>Explore more!</button>
+        </div>
+    <div class="some_crypto">
+        <div class="btcoin">
+            <img src="/bitcoin.png" alt="">
+            <div class="coin_cont">
+                <p>₹<span id="bitcoin"></span></p>
+                <p>Bitcoin</p>
+            </div>
+        </div>
+        <div class="btcoin">
+            <img src="/ethereum.png" alt="">
+            <div class="coin_cont">
+                <p>₹<span id="ethereum"></span></p>
+                <p>Ethereum</p>
+            </div>
+        </div>
+        <div class="btcoin">
+            <img src="/dogecoin.png" alt="">
+            <div class="coin_cont">
+                <p>₹<span id="dogecoin"></span></p>
+                <p>dogecoin</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-2" id="more">
+    <h1>Market</h1>
+    <p>
+        Crypto currency capitalization
+    </p>
+    <div class="scroll_table">
+    <table>
+        <tr>
+            <th>S No</th>
+            <th>Currency</th>
+            <th>Rate (INR)</th>
+            <th>Market Cap</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="table_fl"><img id="cu-img" src="/bitcoin.png">Bitcoin</td>
+            <td id="table_1_r"></td>
+            <td id="table_1_m"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td id="table_fl"><img id="cu-img" src="/ethereum.png">Ethereum</td>
+            <td id="table_2_r"></td>
+            <td id="table_2_m"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="table_fl"><img id="cu-img" src="/dogecoin.png">Dogecoin</td>
+            <td id="table_3_r"></td>
+            <td  id="table_3_m"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td id="table_fl"><img id="cu-img" src="/eos.png">EOS</td>
+            <td id="table_4_r"></td>
+            <td  id="table_4_m"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td id="table_fl"><img id="cu-img" src="/tether.png">Tether</td>
+            <td id="table_5_r"></td>
+            <td  id="table_5_m"></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td id="table_fl"><img id="cu-img" src="/solana.png">Solana</td>
+            <td id="table_6_r"></td>
+            <td id="table_6_m"></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td id="table_fl"><img id="cu-img" src="/ripple.png">Ripple</td>
+            <td id="table_7_r"></td>
+            <td id="table_7_m"></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td id="table_fl"><img id="cu-img" src="/lightcoin.png">Lightcoin</td>
+            <td id="table_8_r"></td>
+            <td id="table_8_m"></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td id="table_fl"><img id="cu-img" src="/cardano.png">Cardano</td>
+            <td id="table_9_r"></td>
+            <td id="table_9_m"></td>
+        </tr>
+    </table>
+    </div>
+    </div>
+    <div class="conatiner-3" id="aboutme">
+        <h1 id="about_me_h">About Me</h1>
+        <div class="about_me">
+            <div>
+            <img src="/profile.jpg" alt="">
+            </div>
+            <div class="about_cont">
+                <h1 id="suhit_here">Hello Suhit here!</h1>
+                <p id="about_me_para"> I am suhit eswar currently I am on my way to perceive my dreams with Btech degree.I am studying 2nd year in Gitam university. I am a frontend web developer and done some projects regarding it. My hobbies are drawing,exploring new things, designing. I have given my details below where you people can contact me. Thank you for visiting my website.</p>
+                <h1 id="about_me_head">Email</h1>
+                <p id="about_me_p">suhiteswar123@gmail.com</p>
+                <h1 id="about_me_head">Contact Me</h1>
+                <p id="about_me_p">+91 8688867490</p>
+                <h1 id="about_me_head">Reach Me</h1>
+                <div class="mylinks">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/suhit-eswar-8816a1227/" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/suhit_eswar_/?hl=en" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p><img src="/logo.png" alt="logo"></p>
+            <p>@Check crypto currency|All rights are reserved</p>
+            <p><a href="#">Terms and policy</a></p>
+        </footer>
+    </div>
+    </div>
+    <script>
+        var settings={
+            "async": true,
+            "scrossDomain": true,
+            "url" :"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cripple%2Cethereum%2Ccardano%2Cdogecoin%2Csolana%2Ctether%2Ceos%2Clightcoin&vs_currencies=inr&include_market_cap=true",
+            "method": "GET",
+            "headers" :{}
+        }
+        $.ajax(settings).done(function(response){
+        console.log(response);
+        document.getElementById('bitcoin').innerHTML=response.bitcoin.inr;
+        document.getElementById('ethereum').innerHTML=response.ethereum.inr;
+        document.getElementById('dogecoin').innerHTML=response.dogecoin.inr;
+        
+        document.getElementById('table_9_m').innerHTML=response.cardano.inr_market_cap;
+        document.getElementById('table_8_m').innerHTML=response.lightcoin.inr_market_cap;
+        document.getElementById('table_7_m').innerHTML=response.ripple.inr_market_cap;
+        document.getElementById('table_6_m').innerHTML=response.solana.inr_market_cap;
+        document.getElementById('table_5_m').innerHTML=response.tether.inr_market_cap;
+        document.getElementById('table_4_m').innerHTML=response.eos.inr_market_cap;
+        document.getElementById('table_3_m').innerHTML=response.dogecoin.inr_market_cap;
+        document.getElementById('table_2_m').innerHTML=response.ethereum.inr_market_cap;
+        document.getElementById('table_1_m').innerHTML=response.bitcoin.inr_market_cap;
+        document.getElementById('table_9_r').innerHTML='₹ '+response.cardano.inr;
+        document.getElementById('table_8_r').innerHTML='₹ '+response.lightcoin.inr;
+        document.getElementById('table_7_r').innerHTML='₹ '+response.ripple.inr;
+        document.getElementById('table_6_r').innerHTML='₹ '+response.solana.inr;
+        document.getElementById('table_5_r').innerHTML='₹ '+response.tether.inr;
+        document.getElementById('table_4_r').innerHTML='₹ '+response.eos.inr;
+        document.getElementById('table_3_r').innerHTML='₹ '+response.dogecoin.inr;
+        document.getElementById('table_2_r').innerHTML='₹ '+response.ethereum.inr;
+        document.getElementById('table_1_r').innerHTML='₹ '+response.bitcoin.inr;
+        });
+        function more_fun(){
+            document.getElementsById('more').scrollTop=document.getElementsById('more').scrollHeight;
+        }
+        function aboutfunction(){
+            document.getElementsById('aboutme').scrollTop=document.getElementsById('aboutme').scrollHeight;
+        }
+        function gotop(){
+            document.getElementsById('top').scrollTop=document.getElementsById('top').scrollHeight;
+        }
+    </script>
+</body>
+</html>
